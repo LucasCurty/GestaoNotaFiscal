@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  postegres:
+    image: bitnami/postgresql:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=lucas
+      - POSTGRES_PASSWORD=senha123
+      - POSTGRES_DB=meuBancoTeste
+    volumes:
+      - meuBancoTeste:/bitnami/postgresql
+
+volumes:
+  meuBancoTeste:
