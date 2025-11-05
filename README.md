@@ -2,6 +2,12 @@
 
 ### Pequeno sistema para controle de nota fiscal, desde o cadastro de clientes e emissão de notas fiscais de serviços e cadastro das mesmas.
 
+> Ferramentas usadas:
+  - Typescript
+  - Express
+  - Prisma
+  - Angular
+
 > Projeto contem:
   - Cadastros e edição:
     - Usuario / Empresa
