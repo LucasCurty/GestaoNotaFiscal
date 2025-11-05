@@ -6,6 +6,7 @@
   - Typescript
   - Express
   - Prisma
+  - Postegresql
   - Angular
 
 > Projeto contem:
